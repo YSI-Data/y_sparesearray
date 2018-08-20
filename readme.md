@@ -1,3 +1,40 @@
+# y_sparsearray
+
+Like a normal array, but when there are very few very spread out bits of data.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_sparsearray-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Data/y_sparsearray)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Data/y_sparsearray
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Data/y_sparsearray>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Data/y_sparsearray/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Data/y_sparsearray/features.md) - More features and examples.
+* [FAQs](YSI-Data/y_sparsearray/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Data/y_sparsearray/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Data/y_sparsearray/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_sparsearray
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_sparsearray-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Data/y_sparsearray)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Data/y_sparsearray
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Data/y_sparsearray>
-```
-
-## Usage
-
-[Click Here] (YSI-Data/y_sparsearray.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
